@@ -6,7 +6,7 @@ stock = {1: 50, 2: 45, 3: 30, 4: 15}
 
 
 def mostrar_productos():
-    os.system("cls" if os.name == "nt" else "clear")
+    os.system("cls" if os.name == "nt" else "clear") # Usamos os, para llamar a system y mandarle "cls", esto nos permitira limpiar la consola, "nt" representa windows
     print("\n========================================")
     print("Lista de Productos:")
     print("========================================")
